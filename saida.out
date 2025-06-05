@@ -1,0 +1,6 @@
+VCD info: dumpfile saida.vcd opened for output.
+OK
+ERRO: valor obtido: 1f, valor experado: 3e
+ERRO: valor obtido: 1f, valor experado: 7c
+ERRO: valor obtido: 1f, valor experado: f8
+ERRO: valor obtido: 1f, valor experado: f1
