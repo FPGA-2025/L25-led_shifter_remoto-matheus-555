@@ -15,7 +15,7 @@ module LedShifter #(
             counter <= 32'b0;
             leds    <= 8'b00011111;
         end else begin
-            if (counter >= 1) begin
+            if (counter >= CLK_FREQ) begin
                 leds    <= {leds[6:0], leds[7]};
                 counter <= 32'b0;
             end else begin
